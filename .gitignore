@@ -27,3 +27,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore build artifacts
+build/
+*.jar
+!module2.jar
+
+# Ignore local config
+application-local.properties
+
+# Ignore IDE files
+.idea/
+.idea_copy/*
+!.idea_copy/workspace.xml
+
+# Explanation for 2.2: module2.jar from 2.1.b is not ignored
